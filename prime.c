@@ -1,18 +1,17 @@
-#include<stdio.h>
-void main()
+#include <stdio.h>
+int main()
 {
-int n,a,i,s;
-printf("Enter the Number is prime or not");
-scanf("%d%d", &n,&a);
-for(s=n;s<=a;s++)
-for(i=2; i<=s/2;i++)
+int l,h,i,flag;
+printf("Enter two numbers(intervals)");
+scanf("%d%d",&l,&h);
+printf("Prime numbers between %d and %d are",l,h);
+while (l<h)
 {
-if(s%i==0)
+flag=0;
+for(i=2;i<=l/2;i++)
 {
+if(l%i==0)
+{
+flag=1;
 break;
- }
-if(i>s/2)
-printf("%d the number is prime",n);
-else
-printf("%d the number is not prime",n);
 }
