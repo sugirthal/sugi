@@ -1,17 +1,23 @@
 #include <stdio.h>
 int main()
 {
-int l,h,i,flag;
-printf("Enter two numbers(intervals)");
-scanf("%d%d",&l,&h);
-printf("Prime numbers between %d and %d are",l,h);
-while (l<h)
+int n1, n2, i, j, flag;
+printf("Enter two numbers(intevals): ");
+scanf("%d %d", &n1, &n2);
+printf("Prime numbers between %d and %d are: ", n1, n2);
+for(i=n1+1; i<n2; ++i)
 {
 flag=0;
-for(i=2;i<=l/2;i++)
+for(j=2; j<=i/2; ++j)
 {
-if(l%i==0)
+if(i%j==0)
 {
 flag=1;
 break;
 }
+}
+if(flag==0)
+printf("%d ",i);
+return 0;
+}
+ 
