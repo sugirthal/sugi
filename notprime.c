@@ -11,7 +11,7 @@ break;
 }
 }
 if(i>n/2)
-printf("%d the given number is prime",n);
+printf("%d yes",n);
 else
-printf("%d the given number is not prime",n);
+printf("%d no",n);
 }
