@@ -1,9 +1,8 @@
 #include <stdio.h>
-#include <conio.h>
-void main(){
+void main()
+{
      char s[50],ch;
      int i,c=0;
-     clrscr();
      printf("Enter any string : ");
      for(i=0;ch!='\n';i++)
      {
@@ -20,5 +19,4 @@ void main(){
     }
      }
      printf("\n\nTotal words are %d",c+1);
-     getch();
 }
