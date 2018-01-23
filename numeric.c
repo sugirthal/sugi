@@ -3,7 +3,6 @@ void main()
 {
 char s[30];
 int i,flag=0,n=0;
-clrscr();
 printf("enter the string:");
 scanf("%s",s);
 for(i=0;s[i]!='\0';i++)
@@ -17,5 +16,4 @@ if(flag==0)
 printf("No");
 else
 printf("Yes");
-getch();
 }
