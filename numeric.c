@@ -1,5 +1,4 @@
 #include<stdio.h>
-#include<conio.h>
 void main()
 {
 char s[30];
@@ -15,8 +14,8 @@ flag=flag+1;
 }
 }
 if(flag==0)
-printf("yes");
-else
 printf("No");
+else
+printf("Yes");
 getch();
 }
