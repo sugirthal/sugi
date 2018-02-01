@@ -1,14 +1,14 @@
 #include<stdio.h>
-#include<math.h>
-int main()
+void main()
 {
-int n,a,c;
-printf("enter the no and power of number");
-scanf("%d%d",&n,&a);
-if(c=pow(n,a))
+int pow,base,n=1;
+printf("enter power and base ");
+scanf("%d%d",&pow,&base);
+while(pow!=0)
 {
-printf("%d",&c);
+  n=n*base;
+  pow--;
 }
-else
-return 0;
+  printf("%d",n);
 }
+  
