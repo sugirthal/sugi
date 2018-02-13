@@ -19,3 +19,10 @@ a[j]=temp;
 }
 }
 }
+ for(i=0;i<=5;i++)
+ {
+   if(a[i]<a[j])
+   {
+     printf("%d",a[i]);
+   }
+ }
