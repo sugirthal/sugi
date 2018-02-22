@@ -1,0 +1,16 @@
+#include<stdio.h>
+int main()
+{
+char s;
+printf(" ");
+scanf("%s",s);
+if(s=='a'||s=='e'||s=='i'||s=='o'||s=='u')
+{
+printf("yes");
+}
+else
+{
+printf("No");
+return 0;
+}
+}
