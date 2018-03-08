@@ -5,8 +5,9 @@ void main()
 char s[100],a[100];
 printf(" ");
 scanf("%s",&s);
-a=strrev(s);
-if(a==s)
+  strcpy(a,s);
+strrev(a);
+if(strcpy(a,s)==0)
 {
 printf("Yes");
 }
