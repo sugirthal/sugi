@@ -4,9 +4,9 @@ int main()
 {
 char s1[50],s2[50];
 int l1,l2;
-printf("enter the string: ");
+printf(" ");
 scanf("%s",s1);
-printf("enter the string:");
+printf(" ");
 scanf("%s",s2);
 l1=strlen(s1);
 l2=strlen(s2);
