@@ -5,7 +5,8 @@ int m,h;
 printf(" ");
 scanf("%d",&m);
 h=m/60;
-printf("%d",h);
+m=m%60;
+printf("%d\t%d",h,m);
 return 0;
 }
     
