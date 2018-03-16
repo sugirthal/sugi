@@ -5,7 +5,7 @@ int a,b,c,n,i;
 printf(" ");
 scanf("%d%d",&a,&b);
 c=a-b;
-if(n%2)
+if(c%2)
 {
 printf("Even");
 }
